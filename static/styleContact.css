@@ -1,0 +1,34 @@
+h1{
+    margin-top: 85px;
+    text-align: center;
+}
+#formSection{
+    min-height: 143%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 79vh;
+    padding-bottom: 239px;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#formSection input{
+    width: 90vh;
+    padding: 11px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: antiquewhite;
+}
+button.btn{
+    padding: 7px 12px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 9px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    width: 17%;
+}

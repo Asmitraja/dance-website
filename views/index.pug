@@ -1,0 +1,40 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            li #[a(href="/") Home]
+            li #[a(href="/") About] 
+            li #[a(href="/") Services]
+            li #[a(href="/") Class info]
+            li #[a(href="/contact") Contact Us]
+
+
+    section#introSection 
+        div.class Welcome to Rj's Dance Company <br> &nbsp; &nbsp;&nbsp; Eat Sleep Dance Repeat   
+                   
+    section#missionSection 
+        h2 Our Mission
+        div.missionElement
+            div.card this is our card
+            div.card this is our card
+            div.card this is our card
+           
+    section#sponsorsSection
+        h2 Our Sponsors
+        div.sponsorsElement
+            img(src="../static/ebay.png", alt="")
+            img(src="../static/Skype_logo.png", alt="")
+            img(src="../static/yahoo.png", alt="")
+            img(src="../static/starbucks.png", alt="")
+    footer#footer
+        | Copyright © 2023 | Rj's Dance Academy.com | All Rights Reserved
+      
+    script
+      include ../static/index.js
+
+

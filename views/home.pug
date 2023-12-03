@@ -1,0 +1,27 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+
+block content
+    section#introSection 
+        div.class Welcome to Rj's Dance Academy <br> &nbsp; &nbsp;&nbsp; Eat Sleep Dance Repeat   
+                   
+    section#missionSection 
+        h2 Our Mission
+        div.missionElement
+            div.card this is our card
+            div.card this is our card
+            div.card this is our card
+           
+    section#sponsorsSection
+        h2 Our Sponsors
+        div.sponsorsElement
+            img(src="../static/ebay.png", alt="")
+            img(src="../static/Skype_logo.png", alt="")
+            img(src="../static/yahoo.png", alt="")
+            img(src="../static/starbucks.png", alt="")      
